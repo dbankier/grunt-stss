@@ -1,0 +1,44 @@
+{
+  "name": "grunt-stss",
+  "description": "grunt plugin for stss",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dbankier/grunt-stss",
+  "author": {
+    "name": "David Bankier",
+    "email": "david@yydigital.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dbankier/grunt-stss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dbankier/grunt-stss/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dbankier/grunt-stss/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "stss": "^0.2.0"
+  }
+}
