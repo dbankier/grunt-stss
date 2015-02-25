@@ -1,11 +1,20 @@
 # grunt-stss
 
-> grunt plugin for [stss](https://github.com/RonaldTreur/STSS) by @RonaldTreur
+> grunt plugin for [STSS](https://github.com/RonaldTreur/STSS) by @RonaldTreur
 
 ## Getting Started
-This plugin requires Grunt `~0.4.5`
+This plugin requires [Grunt](http://gruntjs.com/) `~0.4.5` and [STSS](https://github.com/RonaldTreur/STSS).
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+
+Also, [STSS](https://github.com/RonaldTreur/STSS) needs to be installed via:
+
+```shell
+npm install stss --save-dev
+```
+
+Otherwise, you will get error :
+`The pre-compile-hook was not installed!`
 
 ```shell
 npm install grunt-stss --save-dev
