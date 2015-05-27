@@ -44,6 +44,7 @@ module.exports = function(grunt) {
       src += options.punctuation;
       stss.renderSync({
         data: src,
+        file: f.src[0],
         includePaths: [path.join(process.cwd(), path.dirname(f.src))],
         success: function(tss) {
           grunt.file.write(f.dest, tss);
