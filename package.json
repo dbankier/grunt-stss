@@ -1,7 +1,7 @@
 {
   "name": "grunt-stss",
   "description": "grunt plugin for stss",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "homepage": "https://github.com/dbankier/grunt-stss",
   "author": {
     "name": "David Bankier",
@@ -39,6 +39,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "stss": "0.4.1"
+    "stss": "0.4.2"
   }
 }
