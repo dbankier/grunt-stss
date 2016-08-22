@@ -42,9 +42,11 @@ module.exports = function(grunt) {
 
       // Handle options.
       src += options.punctuation;
+      console.log(f);
+      console.log(src);
       stss.renderSync({
         data: src,
-        includePaths: [path.join(process.cwd(), path.dirname(f.src))],
+        includePaths: f.src.map(file => path.join(process.cwd(), path.dirname(file))),
         success: function(tss) {
           grunt.file.write(f.dest, tss);
           grunt.log.writeln('File "' + f.dest + '" created.');
