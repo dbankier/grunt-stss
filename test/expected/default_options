@@ -1,3 +1,4 @@
 "b": {
-	color: "#FFF"
+	color: "#FFF",
+	backgroundColor: "#fff"
 }

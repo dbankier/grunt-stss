@@ -42,8 +42,6 @@ module.exports = function(grunt) {
 
       // Handle options.
       src += options.punctuation;
-      console.log(f);
-      console.log(src);
       stss.renderSync({
         data: src,
         includePaths: f.src.map(file => path.join(process.cwd(), path.dirname(file))),

@@ -1,5 +1,7 @@
+@import '_colors.stss'
 $color: #FFF;
 
 b {
 	color: $color;
+  background-color: $white;
 }
